@@ -1,0 +1,46 @@
+.custom-bg-section{
+    background-image: url(./images/janosch-diggelmann-i8XiabUW3mw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .custom-bg-section {
+      height: 100vh;
+    }
+  }
+
+ .para{
+    font-size: 12px;
+    color: rgb(243, 235, 235);
+ }
+ @media (max-width: 575.98px) {
+    .para{
+        font-size: 14px;
+     }
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .para{
+        font-size: 14px;
+     }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .para{
+        font-size: 18px;
+     }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .para{
+        font-size: 20px;
+     }
+  }
+
+  @media (min-width: 1200px) {
+    .para{
+        font-size: 22px;
+     }
+  }
